@@ -31,7 +31,5 @@ namespace Business.Concrete
            var category = _context.Categories.ToList();
             return category;
         }
-
-
     }
 }

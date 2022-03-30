@@ -277,3 +277,5 @@ C:\Users\User\source\repos\K205TechBlog\Web\obj\Debug\net6.0\scopedcss\Areas\adm
 C:\Users\User\source\repos\K205TechBlog\Web\bin\Debug\net6.0\Business.dll
 C:\Users\User\source\repos\K205TechBlog\Web\bin\Debug\net6.0\Business.pdb
 C:\Users\User\source\repos\K205TechBlog\Web\obj\Debug\net6.0\scopedcss\Areas\admin\Views\Shared\_LayoutAuth.cshtml.rz.scp.css
+C:\Users\User\source\repos\K205TechBlog\Web\bin\Debug\net6.0\Core.dll
+C:\Users\User\source\repos\K205TechBlog\Web\bin\Debug\net6.0\Core.pdb

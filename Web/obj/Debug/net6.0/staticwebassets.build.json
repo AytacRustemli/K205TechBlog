@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U13sbStWd39QbvsFy7yDu+C0tnSBBu+cu7SxL9UAhzE=",
+  "Hash": "pqbS1fYiazRGFLgivsqPxa01UqjdkjooQ7iEu36o+yI=",
   "Source": "Web",
   "BasePath": "_content/Web",
   "Mode": "Default",
@@ -37179,6 +37179,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\upload\\tech_video_03.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\K205TechBlog\\Web\\wwwroot\\files\\0c97a54a-c0c3-4531-8a64-0133ca22fc39cat.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\K205TechBlog\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "files/0c97a54a-c0c3-4531-8a64-0133ca22fc39cat.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\0c97a54a-c0c3-4531-8a64-0133ca22fc39cat.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\K205TechBlog\\Web\\wwwroot\\files\\6181a833-d742-4b3a-8e6e-293a50c22bd7Wallpaper.webp",
       "SourceId": "Web",
       "SourceType": "Discovered",
@@ -37211,6 +37228,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\a420b485-341a-437d-8c90-79bdb7b1e218Wallpaper.webp"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\K205TechBlog\\Web\\wwwroot\\files\\ae4d14c6-4485-4808-9a27-bd8f9d8f4893sekil.webp",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\K205TechBlog\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "files/ae4d14c6-4485-4808-9a27-bd8f9d8f4893sekil.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\ae4d14c6-4485-4808-9a27-bd8f9d8f4893sekil.webp"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\K205TechBlog\\Web\\wwwroot\\files\\c5308d88-19bc-443a-ac37-f1a5285e041acat.jpg",
+      "SourceId": "Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\K205TechBlog\\Web\\wwwroot\\",
+      "BasePath": "_content/Web",
+      "RelativePath": "files/c5308d88-19bc-443a-ac37-f1a5285e041acat.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\c5308d88-19bc-443a-ac37-f1a5285e041acat.jpg"
     }
   ]
 }

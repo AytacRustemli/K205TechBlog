@@ -13,5 +13,6 @@ namespace Business.Abstract
         void Create(Blog blog);
         Blog GetById(int? id);
         void Update (Blog blog);
+        string SEOURL (string link);
     }
 }

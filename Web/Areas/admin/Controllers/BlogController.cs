@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Entities;
+using Helper.Methods;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -48,9 +49,9 @@ namespace Web.Areas.admin.Controllers
         // POST: BlogController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Blog blog,IFormFile Image)
+        public async Task<IActionResult> Create(Blog blog,IFormFile Image,string Title)
         {
-
+            SEO seo = new();
             string path = "/files/" + Guid.NewGuid() + Image.FileName;
             using (var fileStream = new FileStream(_environment.WebRootPath + path, FileMode.Create))
             {
@@ -61,7 +62,7 @@ namespace Web.Areas.admin.Controllers
             try
             {
                 var userId = _userManager.GetUserId(HttpContext.User);
-                blog.SeoURL = "asdf";
+                blog.SeoURL = seo.SeoURL(Title);
                 blog.PhotoURL = path;
                 blog.K205UserId = userId;
                 _blogManager.Create(blog);

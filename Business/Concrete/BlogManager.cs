@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Business.Abstract;
 using DataAccess;
 using Entities;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 
 namespace Business.Concrete
@@ -13,6 +14,7 @@ namespace Business.Concrete
     public class BlogManager : IBlogManager
     {
         private readonly BlogDbContext _context;
+       
 
         public BlogManager(BlogDbContext context)
         {
@@ -23,6 +25,7 @@ namespace Business.Concrete
         {
             blog.UpdateDate = DateTime.Now;
             blog.PublishDate = DateTime.Now;
+            
             _context.Blogs.Add(blog);
             _context.SaveChanges();
         }
@@ -35,13 +38,26 @@ namespace Business.Concrete
 
         public Blog GetById(int? id)
         {
+           
             var blog = _context.Blogs.FirstOrDefault(x => x.ID == id);
-
             blog.Hit += 1;
 
             Update(blog);
 
             return blog;
+        }
+
+        public string SEOURL(string link)
+        {
+            var seolink = _context.Blogs.FirstOrDefault(x => x.SeoURL == link);
+            if (seolink != null)
+            {
+                return seolink.SeoURL;
+            }
+            else
+            {
+                return link;
+            }
         }
 
         public void Update(Blog blog)
